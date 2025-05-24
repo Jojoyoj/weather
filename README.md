@@ -44,16 +44,4 @@ Regression using a Random Forest Regressor yielded the most interpretable and ac
 Final model selected: **Random Forest Regressor**  
 Reason: more granular predictions, better continuous fit, deployable as a live estimator of pollution levels.
 
-## Deployment
-| Step | Description |
-|------|-------------|
-| Interface | Built with Gradio using sliders for temperature, humidity, wind speed |
-| Output | Continuous prediction of PM10 (µg/m³) |
-| Hosted on | Hugging Face Spaces (Gradio SDK, CPU environment) |
-| Requirements | `gradio`, `scikit-learn`, `pandas`, `numpy`, `joblib` |
-| Status | ✅ Live and tested |
-
 ## References
-- [Open-Meteo API Docs](https://open-meteo.com/)
-- [Gradio Documentation](https://gradio.app)
-- [Hugging Face Spaces](https://huggingface.co/spaces)
