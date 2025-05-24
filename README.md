@@ -21,8 +21,14 @@ Regression using a Random Forest Regressor yielded the most interpretable and ac
 ## Features Created
 | Feature | Description |
 |---------|-------------|
-| PM10 category | Categorized pollution as Low (< 20 µg/m³), Moderate (20–40 µg/m³), High (> 40 µg/m³) |
-| Input normalization | Sliders in Gradio restrict user input to realistic ranges |
+| temperature   | Raw feature from weather data (°C) |
+| humidity      | Raw feature from weather data (%) |
+| wind_speed    | Raw feature from weather data (m/s) |
+| pm10_category | Categorized pollution as Low (< 20 µg/m³), Moderate (20–40 µg/m³), High (> 40 µg/m³) |
+| datetime merge| Merged weather and air quality data on timestamp |
+| Input sliders   | User-facing Gradio sliders to normalize and bound inputs |
+| Missing value handling | Dropped incomplete rows for clean model training |
+
 
 ## Model Training
 ### Amount of Data
