@@ -51,3 +51,4 @@ Final model selected: **Random Forest Regressor**
 Reason: more granular predictions, better continuous fit, deployable as a live estimator of pollution levels.
 
 ## References
+<img src="importance.png">
