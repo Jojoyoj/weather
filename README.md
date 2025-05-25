@@ -4,7 +4,7 @@
 This project predicts PM10 air pollution levels in Zurich using historical weather data (temperature, humidity, wind speed). It compares regression and classification models to determine the best approach for forecasting air quality and deploys the final model as a Gradio web app on Hugging Face Spaces.
 
 ## Results
-Regression using a Random Forest Regressor yielded the most interpretable and accurate results. Classification models had high overall accuracy but failed to predict rare high-pollution events. The final model was deployed with a user-friendly interface that allows users to input weather data and instantly receive a PM10 prediction.
+The Random Forest Regressor produced the most accurate and interpretable regression results. Classification models had high overall accuracy but failed to predict rare high-pollution events. The final model was deployed with a user-friendly interface that allows users to input weather data and instantly receive a PM10 prediction.
 
 ### Name & URL
 | Name         | URL |
@@ -48,7 +48,7 @@ Regression using a Random Forest Regressor yielded the most interpretable and ac
 | 4 | Random Forest Classifier | Accuracy: 73%, Better moderate recall | Better performance on moderate class, still weak on high pollution |
 
 Final model selected: **Random Forest Regressor**  
-Reason: more granular predictions, better continuous fit, deployable as a live estimator of pollution levels.
+Reason: it provided more precise, continuous predictions and was well-suited for deployment as a real-time pollution estimator.
 
 ## References
 <img src="importance.png">
